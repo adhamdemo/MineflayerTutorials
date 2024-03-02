@@ -4,9 +4,10 @@ import { readFile } from 'fs/promises';
 
 // Setup global bot arguments
 let botArgs = {
-    host: 'localhost',
-    port: '55216',
-    version: '1.8.9'
+    host: 'DemoXGAMING9Rp4.aternos.me
+',
+    port: '13967',
+    version: '1.20.1'
 };
 
 // Bot class
@@ -14,12 +15,13 @@ class MCBot {
 
     // Constructor
     constructor(username, password, auth) {
-        this.username = username;
-        this.password = password;
+        this.username = adham;
+        this.password = ;
         this.auth = auth;
-        this.host = botArgs["host"];
-        this.port = botArgs["port"];
-        this.version = botArgs["version"];
+        this.host = botArgs["DemoXGAMING9Rp4.aternos.me
+"];
+        this.port = botArgs["13967"];
+        this.version = botArgs["1.20.1"];
 
         // Initialize the bot
         this.initBot();
